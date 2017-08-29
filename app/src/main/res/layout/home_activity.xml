@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/buttonStart"
+        android:id="@+id/button_start"
         android:layout_centerInParent="true"
         android:textAllCaps="true"
         android:text="@string/button_text"

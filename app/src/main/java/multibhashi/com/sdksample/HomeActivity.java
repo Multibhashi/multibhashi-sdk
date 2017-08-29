@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.home_activity);
 
         //Set User details
         User user = new User();
@@ -36,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
                 .build();
 
 
-        Button button = (Button) findViewById(R.id.buttonStart);
+        Button button = (Button) findViewById(R.id.button_start);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
