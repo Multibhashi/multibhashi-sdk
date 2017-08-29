@@ -39,3 +39,5 @@ Call start on the multibhashi object with a reference to the launching Activity
 ```
   multibhashi.start(ParentActivity.this);
 ```
+
+Please make sure you replace the CLIENT_ID with the id provided to you.
