@@ -8,7 +8,7 @@ For Gradle:
 
 ```
 dependencies {
-    compile 'com.multibhashi.services:sdk:0.1.2'
+    compile 'com.multibhashi.services:sdk:0.1.3'
 }
 ```
 
