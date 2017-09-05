@@ -8,7 +8,7 @@ For Gradle:
 
 ```
 dependencies {
-    compile 'com.multibhashi.services:sdk:0.1.3'
+    compile 'com.multibhashi.services:sdk:0.1.4'
 }
 ```
 
@@ -40,4 +40,4 @@ Call start on the multibhashi object with a reference to the launching Activity
   multibhashi.start(ParentActivity.this);
 ```
 
-Please make sure you replace the CLIENT_ID with the id provided to you.
+Please make sure you replace the CLIENT_ID in the sample with the id provided to you.
